@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import uri from '../../config/mongo-config'
+import uri from '../../../config/mongo-config'
 mongoose.Promise = global.Promise
 
 const options = {

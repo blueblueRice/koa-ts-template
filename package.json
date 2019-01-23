@@ -1,15 +1,14 @@
 {
   "name": "koa-ts-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node bin/www",
-    "dev": "./node_modules/.bin/nodemon bin/www",
-    "prd": "pm2 start bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node dist/src/main.js",
+    "dev": "nodemon",
+    "prd": "pm2 start dist/src/main.js"
   },
   "dependencies": {
-    "bluebluerice-ts-koa-router": "^1.0.1",
+    "bluebluerice-ts-koa-router": "^1.2.2",
     "debug": "^2.6.3",
     "ejs": "^2.6.1",
     "koa": "^2.2.0",
@@ -26,9 +25,15 @@
     "sequelize": "^4.41.2"
   },
   "devDependencies": {
+    "@types/koa-bodyparser": "^4.2.1",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
     "@types/koa-router": "^7.0.37",
+    "@types/koa-views": "^2.0.3",
+    "@types/koa2-cors": "^2.0.1",
     "@types/mongoose": "^5.3.7",
     "@types/sequelize": "^4.27.33",
-    "nodemon": "^1.8.1"
+    "nodemon": "^1.8.1",
+    "typescript": "^3.2.4"
   }
 }
