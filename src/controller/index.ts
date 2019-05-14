@@ -7,9 +7,6 @@ const service = new Service()
 export default class Index extends Router {
   static routes: any
   static allowedMethods: any
-  constructor(){
-    super()
-  }
 
   @Request({ url: '/', method: 'get' })
   async hello(ctx: any, next: any) {

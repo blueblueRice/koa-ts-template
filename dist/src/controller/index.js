@@ -14,9 +14,6 @@ const index_1 = __importDefault(require("../service/index"));
 const bluebluerice_ts_koa_router_1 = require("bluebluerice-ts-koa-router");
 const service = new index_1.default();
 let Index = class Index extends koa_router_1.default {
-    constructor() {
-        super();
-    }
     async hello(ctx, next) {
         service.sayHello(ctx);
         next();

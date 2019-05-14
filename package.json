@@ -9,31 +9,21 @@
   },
   "dependencies": {
     "bluebluerice-ts-koa-router": "^1.2.2",
-    "debug": "^2.6.3",
-    "ejs": "^2.6.1",
-    "koa": "^2.2.0",
-    "koa-bodyparser": "^3.2.0",
-    "koa-convert": "^1.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
     "koa-json": "^2.0.2",
-    "koa-logger": "^2.0.1",
-    "koa-onerror": "^1.2.1",
-    "koa-router": "^7.1.1",
-    "koa-static": "^3.0.0",
-    "koa-views": "^5.2.1",
-    "koa2-cors": "^2.0.6",
-    "mongoose": "^5.4.3",
-    "sequelize": "^4.41.2"
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "koa2-cors": "^2.0.6"
   },
   "devDependencies": {
-    "@types/koa-bodyparser": "^4.2.1",
     "@types/koa-json": "^2.0.18",
     "@types/koa-logger": "^3.1.1",
-    "@types/koa-router": "^7.0.37",
+    "@types/koa-router": "^7.0.40",
     "@types/koa-views": "^2.0.3",
     "@types/koa2-cors": "^2.0.1",
-    "@types/mongoose": "^5.3.7",
-    "@types/sequelize": "^4.27.33",
-    "nodemon": "^1.8.1",
-    "typescript": "^3.2.4"
+    "ts-node": "^8.1.0"
   }
 }

@@ -39,5 +39,5 @@ app.use(index_1.default.routes()).use(index_1.default.allowedMethods());
 app.on('error', (err, ctx) => {
     console.error('server error', err, ctx);
 });
-module.exports = app;
+exports.default = app;
 //# sourceMappingURL=app.js.map

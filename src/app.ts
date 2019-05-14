@@ -44,4 +44,4 @@ app.on('error', (err: any, ctx: any) => {
   console.error('server error', err, ctx)
 });
 
-module.exports = app
+export default app
